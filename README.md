@@ -34,7 +34,7 @@ $ cd ~/rpmbuild/SPECS
 $ git clone https://github.com/secureworkstation/rpm-amdgpu-pro-opencl amdgpu-pro-opencl
 $ cd amdgpu-pro-opencl
 $ rpmbuild -ba amdgpu-pro-opencl.spec
-$ sudo dnf -y --nogpgcheck install ~/rpmbuild/RPMS/x86_64/amdgpu-pro-opencl-20.45.1188099-1.fc*.x86_64.rpm
+$ sudo dnf -y --nogpgcheck install ~/rpmbuild/RPMS/x86_64/amdgpu-pro-opencl-21.10.1247438-1.fc*.x86_64.rpm
 ```
 
 
